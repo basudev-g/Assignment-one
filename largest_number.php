@@ -1,7 +1,7 @@
 <?php 
 /**
  * 
- * Task:2
+ * Task: 2s
  * Find the largest number using PHP (30)
  * Write a PHP script to find the largest number among three given numbers: $num1 = 4, $num2 = 5, 
  * and $num3 = 6. Use if-else statements.
