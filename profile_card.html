@@ -1,11 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Merriweather -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Karla -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FotAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css" integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Profile_card</title>
+    <style>
+      body {
+        background-color: #e2bbe9;
+      }
+
+      .card {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        width: 400px;
+        height: 600px;
+        background-color:burlywood;
+        /* padding: 40px; */
+        border-radius: 10px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+          0 6px 6px rgba(0, 0, 0, 0.23);
+      }
+
+      .card-style {
+        background-color: #5A639C;
+        position: relative;
+        height: 100px;
+        width: 100%;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+      }
+
+      img {
+        border: #5A639C 5px solid;
+        border-radius: 50%;
+        position: absolute;
+        top: 120%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .card-header {
+        text-align: center;
+        margin-top: 120px;
+        /* padding: 40px; */
+      }
+
+      .card-body {
+        text-align: center;
+        margin-top: 35px;
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+
+      .card-footer {
+        text-align: center;
+        margin-top: 35px;
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="card-style">
+        <img src="./Basudev Goswami.jpg" alt="Profile_Image" width="170px" />
+      </div>
+      <div class="card-header">
+        <h2
+          style="
+            font-family: 'Merriweather', Arial, sans-serif;
+            text-align: center;
+            font-weight: 900;
+            color: #5A639C;
+            margin-bottom: 0%;
+          "
+        >
+          Basudev Goswami
+        </h2>
+        <p
+          style="
+            font-family: 'Karla', Arial, sans-serif;
+            text-align: center;
+            font-weight: 400;
+            color: black;
+            margin-top: 0%;
+          "
+        >
+          Web Developer
+        </p>
+      </div>
+      <div class="card-body">
+        <h4 style="
+            font-family: 'Merriweather', 'Arial', 'sans-serif'; font-weight: 900;
+        color: #5A639C; margin-bottom: 0%;">About Me:</h4>
+        <p
+          style="
+            font-family: 'Karla', Arial, sans-serif;
+            text-align: center;
+            font-weight: 400;
+            color: black;
+            margin-top: 5px;
+          "
+        >
+        A Laravel developer is a skilled web developer specializing in the Laravel PHP framework, building robust, scalable applications. Proficient in PHP, HTML, CSS, and JavaScript, they handle database management, API development, and application security. They collaborate effectively, write clean code, and stay updated with the latest web development trends.
+        </p>
+      </div>
+
+      <div class="card-footer">
+        <h4 style="
+            font-family: 'Merriweather', 'Arial', 'sans-serif'; font-weight: 900;
+        color: #5A639C; margin-bottom: 0%;">Social Media Handle:</h4>
+
+      </div>
+          
+    </div>
+  </body>
 </html>
