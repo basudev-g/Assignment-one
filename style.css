@@ -1,0 +1,105 @@
+body {
+  background-color: #f8d082;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 670px;
+  background-color: #ffebb2;
+  /* padding: 40px; */
+  border-radius: 10px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.19), 0 10px 10px rgba(0, 0, 0, 0.23);
+}
+
+.card-style {
+  background-color: #640d6b;
+  position: relative;
+  height: 130px;
+  width: 100%;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+img {
+  border: #640d6b 5px solid;
+  border-radius: 50%;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img:hover {
+  border: #405d72 5px solid;
+  cursor: pointer;
+}
+
+.card-header {
+  text-align: center;
+  margin-top: 90px;
+  /* padding: 40px; */
+}
+
+.card-body {
+  text-align: center;
+  margin-top: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.card-footer {
+  text-align: center;
+  margin-top: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #405d72;
+  font-size: x-large;
+}
+
+a {
+  text-decoration: none;
+  color: #405d72;
+}
+
+i {
+  color: #640d6b;
+}
+
+i:hover {
+  color: #405d72;
+  cursor: pointer;
+}
+
+.badge {
+  height: 10px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: rgb(180, 29, 29) 2px solid;
+  background-color: rgb(180, 29, 29);
+  color: #ffebb2;
+  padding: 12px;
+  font-family: 'Karla' 'Arial', 'sans-serif';
+  font-weight: 600;
+  font-size:large;
+  text-align: center;
+}
+
+.badge:hover {
+  cursor: pointer;
+  border-style:none;
+  background-color: #ffebb2;
+  color: #405d72;
+}

@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Merriweather -->
+    <!-- Merriweather Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <!-- Karla -->
+    <!-- Karla Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,92 +25,23 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
-    <title>Profile_card</title>
-    <style>
-      body {
-        background-color: #f8d082;
-      }
-
-      .card {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 400px;
-        height: 650px;
-        background-color: #ffebb2;
-        /* padding: 40px; */
-        border-radius: 10px;
-        box-shadow: 0 15px 25px rgba(0, 0, 0, 0.19),
-          0 10px 10px rgba(0, 0, 0, 0.23);
-      }
-
-      .card-style {
-        background-color: #640d6b;
-        position: relative;
-        height: 130px;
-        width: 100%;
-        border-bottom-left-radius: 30px;
-        border-bottom-right-radius: 30px;
-      }
-
-      img {
-        border: #640d6b 5px solid;
-        border-radius: 50%;
-        position: absolute;
-        top: 90%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-
-      .card-header {
-        text-align: center;
-        margin-top: 90px;
-        /* padding: 40px; */
-      }
-
-      .card-body {
-        text-align: center;
-        margin-top: 40px;
-        padding-left: 30px;
-        padding-right: 30px;
-      }
-
-      .card-footer {
-        text-align: center;
-        margin-top: 40px;
-        padding-left: 30px;
-        padding-right: 30px;
-      }
-
-      .flex-container {
-        display: flex;
-        justify-content: space-around;
-        color: #405d72;
-        font-size:x-large;
-      }
-
-      i {
-        color: #640d6b;
-      }
-
-      i:hover {
-        color: #405d72;
-        cursor: pointer;
-      }
-    </style>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Profile Card</title>
   </head>
   <body>
     <div class="card">
       <div class="card-style">
+        <div style="display: flex; justify-content: flex-end; padding: 10px">
+          <div class="badge">PRO</div>
+        </div>
+        <!-- Profile Image -->
         <img src="./Basudev Goswami.jpg" alt="Profile_Image" width="170px" />
       </div>
 
       <div class="card-header">
         <h2
           style="
-            font-family: 'Merriweather', Arial, sans-serif;
+            font-family: 'Merriweather', 'Arial', 'sans-serif';
             text-align: center;
             font-weight: 900;
             color: #640d6b;
@@ -121,7 +52,7 @@
         </h2>
         <p
           style="
-            font-family: 'Karla', Arial, sans-serif;
+            font-family: 'Karla', 'Arial', 'sans-serif';
             text-align: center;
             font-size: larger;
             font-weight: 500;
@@ -139,19 +70,17 @@
             font-family: 'Merriweather', 'Arial', 'sans-serif';
             font-weight: 900;
             color: #640d6b;
-            /* margin-bottom: 0%; */
           "
         >
           About Me:
         </h3>
         <p
           style="
-            font-family: 'Karla', Arial, sans-serif;
+            font-family: 'Karla', 'Arial', 'sans-serif';
             text-align: center;
             font-weight: 400;
             font-size: larger;
             color: #405d72;
-            /* margin-top: 5px; */
             cursor: pointer;
           "
         >
@@ -172,10 +101,18 @@
         >
           Social Media Handle:
         </h3>
-        <div class="flex-container" style="margin-top: 30px;">
-          <a href="http://github.com" class="btn"><i class="fa-brands fa-github"></i></a>
-          <a href="http://google.com" class="btn"><i class="fa-brands fa-google"></i></a>
-          <a href="http://linkedin.com" class="btn"><i class="fa-brands fa-linkedin"></i></a>
+        <div class="flex-container" style="margin-top: 20px; margin-bottom: 20px;">
+          <a href="https://github.com/basudev-g"><i class="fa-brands fa-github"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href="http://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+          <a href="http://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+          <a href="http://instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+        </div>
+        <hr />
+
+        <div style="display: flex; justify-content: center; flex-flow: row wrap;">
+          <a href="mailto:basudevit341@gmail.com"><i class="fa-solid fa-envelope"></i> basudevit341@gmail.com</a>
+          <a href="#"><i class="fa-solid fa-phone"></i> +88 017 123 456 789</a>
         </div>
       </div>
     </div>
